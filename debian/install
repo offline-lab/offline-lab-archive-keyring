@@ -1,0 +1,2 @@
+keyrings/offline-lab-archive-keyring.asc usr/share/keyrings/
+sources/offline-lab.sources              etc/apt/sources.list.d/

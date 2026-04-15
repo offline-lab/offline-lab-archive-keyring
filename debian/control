@@ -1,0 +1,17 @@
+Source: offline-lab-archive-keyring
+Section: misc
+Priority: optional
+Maintainer: Offline Lab <info@496.be>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://496.be
+Vcs-Git: https://github.com/offline-lab/offline-lab-archive-keyring.git
+Vcs-Browser: https://github.com/offline-lab/offline-lab-archive-keyring
+
+Package: offline-lab-archive-keyring
+Architecture: all
+Depends: ${misc:Depends}
+Description: GnuPG archive keys for the Offline Lab package repository
+ The Offline Lab project signs its Release files. This package
+ contains the archive key used for that, along with the apt sources
+ configuration for repo.496.be.

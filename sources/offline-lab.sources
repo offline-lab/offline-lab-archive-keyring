@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://repo.496.be
+Suites: stable
+Components: main
+Signed-By: /usr/share/keyrings/offline-lab-archive-keyring.asc

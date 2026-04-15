@@ -1,0 +1,7 @@
+*.deb
+*.changes
+*.buildinfo
+debian/.debhelper/
+debian/offline-lab-archive-keyring/
+debian/files
+dist/
