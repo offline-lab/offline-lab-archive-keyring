@@ -1,33 +1,11 @@
 # offline-lab-archive-keyring
 
 GnuPG archive key and apt sources for the [Offline Lab](https://496.be) package repository at `repo.496.be`.
-Installing this package configures your system to trust and use the Offline Lab repository:
-
-```
-deb https://repo.496.be stable main
-```
 
 ## Installing
 
 ```sh
 apt install offline-lab-archive-keyring
-```
-
-If you are bootstrapping a fresh system before this package is available:
-
-```sh
-curl -fsSL https://repo.496.be/repo.gpg \
-  | sudo tee /usr/share/keyrings/offline-lab-archive-keyring.asc > /dev/null
-
-sudo tee /etc/apt/sources.list.d/offline-lab.sources <<EOF
-Types: deb
-URIs: https://repo.496.be
-Suites: stable
-Components: main
-Signed-By: /usr/share/keyrings/offline-lab-archive-keyring.asc
-EOF
-
-sudo apt update
 ```
 
 ## Development
