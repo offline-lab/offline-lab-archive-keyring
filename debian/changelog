@@ -1,3 +1,10 @@
+offline-lab-archive-keyring (0.0.3) stable; urgency=medium
+
+  [ Offline Lab ]
+  * update key
+
+ -- root <info@496.be>  Sat, 18 Apr 2026 14:59:37 +0000
+
 offline-lab-archive-keyring (0.0.2) stable; urgency=medium
 
   [ Offline Lab ]
