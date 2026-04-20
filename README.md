@@ -1,6 +1,6 @@
 # offline-lab-archive-keyring
 
-GnuPG archive key and apt sources for the [Offline Lab](https://496.be) package repository at `repo.496.be`.
+GnuPG archive key and apt sources for the [Offline Lab](https://offline-lab.com) package repository at `repo.offline-lab.com`.
 
 ## Installing
 
